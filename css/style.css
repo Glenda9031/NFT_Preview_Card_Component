@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-primary-100: hsl(215, 51%, 70%);
+    --clr-primary-200: hsl(178, 100%, 50%);
+
+    --clr-neutral-100: hsl(217, 54%, 11%);
+    --clr-neutral-200: hsl(216, 50%, 16%);
+    --clr-neutral-300: hsl(215, 32%, 27%);
+    --clr-neutral-400: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+}
